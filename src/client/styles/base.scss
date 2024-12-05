@@ -1,0 +1,32 @@
+/* base.scss */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Sentiment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Analyze News Sentiment</h1>
+    </header>
+    <main>
+        <section>
+            <form id="urlForm">
+                <label for="name">Article URL:</label>
+                <input id="name" type="text" name="url" placeholder="Enter article URL" required>
+                <button type="submit">Analyze</button>
+            </form>
+        </section>
+        <section id="results">
+            <!-- Results will be populated here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 News Sentiment Analyzer. All rights reserved.</p>
+    </footer>
+    <script src="js/serverCommunicator.js"></script>
+</body>
+</html>
